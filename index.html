@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body background="background.gif"></body>
+<center>
+    <h3 class="btn btn-warning heading">AI DJ WEB APP
+	    <br>
+	    <span class="note">NOTE - Show your left-hand wrist to play Hedwig's Theme Remix. 
+        Show your right-hand wrist to play the Peter Pan Theme</span>
+  	</h3>
+
+    <div class="div_peter">
+      <img src="peter.jpeg" class="div_peter_img">
+      <br>
+      <h3 class="btn btn-danger" id="peter">Peter Pan Theme</h3>
+    </div>
+
+    <div class="div_harry">
+      <img src="harry.jpg" class="div_harry_img">
+      <br>
+      <h3 class="btn btn-danger" id="harry">Hedwig's Theme Remix</h3>
+    </div>
+	<br><br>
+
+  <h1 class="playing btn btn-info heading">Playing: N/A</h1>
+  </center>
+
+<script src="main.js"></script>
+</body>
+</html>
