@@ -29,16 +29,19 @@ function draw(){
 
     fill("#FF0000");
     stroke("#FF0000");
+    playing = document.getElementById("playing");
 
     if(scoreRightWrist > 0.2){
         circle(rightWristX, rightWristY, 20);
         song = peterpantheme;
+        playing.innerHTML = "Playing: Peter Pan Theme";
         play();
     }
 
     if(scoreLeftWrist > 0.2){
         circle(leftWristX, leftWristY, 20);
         song = hedwigtheme;
+        playing.innerHTML = "Playing: Hedwig's Theme Remix";
         play();
     }
 }
