@@ -35,6 +35,7 @@ function draw(){
         circle(rightWristX, rightWristY, 20);
         song = peterpantheme;
         playing.innerHTML = "Playing: Peter Pan Theme";
+        hedwigtheme.stop();
         play();
     }
 
@@ -42,6 +43,7 @@ function draw(){
         circle(leftWristX, leftWristY, 20);
         song = hedwigtheme;
         playing.innerHTML = "Playing: Hedwig's Theme Remix";
+        peterpantheme.stop();
         play();
     }
 }
